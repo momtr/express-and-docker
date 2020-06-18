@@ -4,7 +4,7 @@
 FROM node:12
 
 # create app directory
-WORKDIR /us/src/app
+WORKDIR /usr/src/app
 
 # install app dependencies
 # we copy package.json and package-lock.json
